@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://www.aayushman.dev" target="_blank">🌐 Portfolio</a> •
-  <a href="https://github.com/aayushman-singh" target="_blank">🐙 GitHub</a> •
+  <a href="https://x.com/aayushman2703" target="_blank">X</a> •
   <a href="https://www.linkedin.com/in/aayushman-singh-zz" target="_blank">💼 LinkedIn</a>
 </p>
 
