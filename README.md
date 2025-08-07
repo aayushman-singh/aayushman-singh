@@ -9,9 +9,10 @@
 
 ---
 
-- 🔭 I’m currently working at **Travxai Technologies** building full-featured social media platforms using **Flutter** and **Firebase**
-- 🌱 Currently learning **AI-assisted testing** with **Playwright** and **FastAPI**
+- 🔭 I’ve previously worked at **FacTech**, **Yoliday** & **Travxai Technologies** building full-featured software and platforms using **Flutter**, **Firebase**, **TypeScript** , **React**, **React-Native**  , **Next** , **Python3** , **Django**, **AWS** 
+- 🌱 Currently learning **Devops**, **AI - Agents** and **Trading algorithms**
 - 🏆 Winner of **Smart India Hackathon 2024**
+- 🚀 Regular contributor in Wagtail
 - 👯 Looking to collaborate on **open source and impactful full-stack apps**
 - 💬 Ask me about **Flutter, Next.js, MERN stack, and scalable APIs**
 - 📫 Reach me at **aayushman2702@gmail.com**
