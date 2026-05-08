@@ -1,85 +1,82 @@
-<h1 align="center">Hi 👋, I'm Aayushman Singh</h1>
-<h3 align="center">Full Stack Developer | Open Source Contributor | Hackathon Winner</h3>
+<div align="center">
 
-<p align="center">
-  <a href="https://www.aayushman.dev" target="_blank">🌐 Portfolio</a> •
-  <a href="https://x.com/aayushman2703" target="_blank">X</a> •
-  <a href="https://www.linkedin.com/in/aayushman-singh-zz" target="_blank">💼 LinkedIn</a>
-</p>
+### Aayushman Singh
 
----
+*engineer · researcher · builder*
 
-- 🔭 I’ve previously worked at **FacTech**, **Yoliday** & **Travxai Technologies** building full-featured software and platforms using **Flutter**, **Firebase**, **TypeScript** , **React**, **React-Native**  , **Next** , **Python3** , **Django**, **AWS** 
-- 🌱 Currently learning **Devops**, **AI - Agents** and **Trading algorithms**
-- 🏆 Winner of **Smart India Hackathon 2024**
-- 🚀 Regular contributor in Wagtail
-- 👯 Looking to collaborate on **open source and impactful full-stack apps**
-- 💬 Ask me about **Flutter, Next.js, MERN stack, and scalable APIs**
-- 📫 Reach me at **aayushman2702@gmail.com**
-- ⚡ Fun fact: My code once parsed 12+ social platforms for Indian intelligence. Yes, really.
+[aayushman.dev](https://aayushman.dev) · [@aayushman2703](https://x.com/aayushman2703) · [linkedin](https://www.linkedin.com/in/aayushman-singh-zz/) · [aayushman2702@gmail.com](mailto:aayushman2702@gmail.com)
+
+</div>
 
 ---
 
-### 🛠️ Languages and Tools
+I build software at the edges most engineers don't visit — autonomous coding agents, decentralized storage, surveillance-grade data parsers. And I ship it.
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"/>
-</p>
+The throughline isn't the stack — it's the standard. First demos are easy; software you'll still trust in the third week is where the actual engineering lives. I optimize for that. The Indian Government does too — which is why the National Investigation Agency runs my work.
+
+**Recognition** — Smart India Hackathon '24 winner (NIA track) · deployed by the National Investigation Agency · currently engineering at Travxai Technologies.
 
 ---
 
-### 📈 GitHub Stats
+### Currently building
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aayushman-singh&show_icons=true&theme=radical" alt="Aayushman's GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushman-singh&layout=compact&theme=radical" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushman-singh&theme=radical" alt="GitHub Streak" />
-</p>
+> **Jarvis** — an autonomous SDLC agent that closes its own pull requests. Voice-activated. Three-tier self-healing pipeline: free LLMs grind implementations against hand-written acceptance tests; Claude reviews. [→ repo](https://github.com/aayushman-singh/jarvis)
 
 ---
 
-### 🧠 Highlight Projects
+### Selected work
 
-- **Tattletale** – 🏆 *Smart India Hackathon Winner*  
-  `Typescript`, `FastAPI`, `Flask`, `Crawlee`, `Playwright`  
-  → Parsed 12+ social platforms for national intel with timeline/location tracking
+| Project | What it is | Stack |
+| --- | --- | --- |
+| **[Jarvis](https://github.com/aayushman-singh/jarvis)** | Autonomous SDLC agent w/ self-healing CI. Discord voice surface. | Python · asyncio · Claude SDK · NATS · Playwright |
+| **[GitLogs](https://gitlogs.aayushman.dev)** | Auto-posts AI-generated tweets from your GitHub commits. | React · Vite · Node.js · Gemini · OAuth2 · SQLite |
+| **[Walt](https://walt.aayushman.dev)** | Self-hostable IPFS storage with versioning, pinning, billing. | Next.js · TypeScript · IPFS · Firebase Auth · Docker |
+| **[X Archive Extractor](https://extractor.aayushman.dev/dashboard)** | Chrome ext + web app to extract, sort, archive Twitter/X tweets. | Chrome Ext · React · TypeScript · AWS S3 · MongoDB |
+| **[HackHound](https://www.aayushman.dev/hack-hound)** | Web fuzzer — Vite + React UI, FastAPI engine. | Vite · Tailwind · FastAPI · TypeScript · MongoDB |
+| **[Tattletale](https://www.aayushman.dev/tattletale)** | SIH '24 winner. Social media parser for the National Investigation Agency. | Vite · React · Node.js · TypeScript · MongoDB · OAuth2 |
+| **[TravelSocial](https://github.com/aayushman-singh/TravelSocial)** | Mobile-first travel booking with social sharing. | Flutter · Dart · Firebase · NoSQL |
 
-- **Vogue Voyage** – *Outfit Recommendation App*  
-  `Flutter`, `Firebase`, `ML`  
-  → Fashion recs with image recognition and secure storage
-
-- **Openjournal** – *Real-time research collab platform*  
-  `MERN Stack`, `WebSockets`, `Vercel`
-
-- **Wagtail CMS PRs** – *Contributing to the Django ecosystem*  
-  `Python`, `TypeScript`, `Stimulus.js`, `Django`
+Full case studies on [aayushman.dev](https://aayushman.dev) — click any project, click again to launch live.
 
 ---
 
-### 📫 Let’s Connect
+### Stack
 
-<p align="left">
-  <a href="mailto:aayushman2702@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/aayushman-singh-zz"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/aayushman-singh"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a>
-</p>
+**Currently** — Autonomous Agents · Self-healing CI · Local-first · On-device LLMs
+
+**Shipped at scale** — React · Next.js · Node.js · Flutter · TypeScript · Python · FastAPI
+
+**Edges I work at** — IPFS · OSINT pipelines · Surveillance-grade parsers · Voice agents · Browser extensions
+
+**Infrastructure** — AWS · GCP · Docker · Firebase · MongoDB · SQLite · Redis
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aayushman-singh&label=Profile%20views&color=0e75b6&style=flat" alt="aayushman-singh" />
-</p>
+### Writing
+
+Essays on shipping software, autonomous agents, and the third-week problem. [→ aayushman.dev/#about](https://aayushman.dev/#about)
+
+- Three-tier self-healing CI: how Jarvis closes its own PRs
+- Demos lie. Week three is the only honest metric.
+- Local-first is not a buzzword — it's the only honest software
+- Building software the State will trust
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=aayushman-singh&show_icons=true&hide_border=true&hide=issues&include_all_commits=true&count_private=true&card_width=480&hide_title=true&bg_color=00000000&title_color=1f6feb&icon_color=c8693d&text_color=4a4640" alt="github stats" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushman-singh&hide_border=true&background=00000000&stroke=d9d3c4&ring=1f6feb&fire=c8693d&currStreakLabel=1f6feb&sideLabels=4a4640&dates=807a70" alt="streak" />
+
+</div>
+
+---
+
+<div align="center">
+
+*Available for advisory, consulting, and select staff-level roles where the problem is hard enough to be interesting.*
+
+[**hi →**](mailto:aayushman2702@gmail.com)
+
+</div>
