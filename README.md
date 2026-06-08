@@ -20,7 +20,7 @@ The throughline isn't the stack — it's the standard. First demos are easy; sof
 
 ### Currently building
 
-> **Jarvis** — an autonomous SDLC agent that closes its own pull requests. Voice-activated. Three-tier self-healing pipeline: free LLMs grind implementations against hand-written acceptance tests; Claude reviews. [→ repo](https://github.com/aayushman-singh/jarvis)
+> **Jarvis** — an autonomous SDLC agent that closes its own pull requests. Voice-activated. Three-tier self-healing pipeline: free LLMs grind implementations against hand-written acceptance tests; Claude reviews. Real eval numbers shipped: qwen3:8b 5/5 (100%), qwen3.5 4/5 (80%, failure left in). [→ repo](https://github.com/aayushman-singh/jarvis)
 
 ---
 
@@ -28,13 +28,16 @@ The throughline isn't the stack — it's the standard. First demos are easy; sof
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| **[Jarvis](https://github.com/aayushman-singh/jarvis)** | Autonomous SDLC agent w/ self-healing CI. Discord voice surface. | Python · asyncio · Claude SDK · NATS · Playwright |
-| **[GitLogs](https://gitlogs.aayushman.dev)** | Auto-posts AI-generated tweets from your GitHub commits. | React · Vite · Node.js · Gemini · OAuth2 · SQLite |
-| **[Walt](https://walt.aayushman.dev)** | Self-hostable IPFS storage with versioning, pinning, billing. | Next.js · TypeScript · IPFS · Firebase Auth · Docker |
-| **[X Archive Extractor](https://extractor.aayushman.dev/dashboard)** | Chrome ext + web app to extract, sort, archive Twitter/X tweets. | Chrome Ext · React · TypeScript · AWS S3 · MongoDB |
-| **[HackHound](https://www.aayushman.dev/hack-hound)** | Web fuzzer — Vite + React UI, FastAPI engine. | Vite · Tailwind · FastAPI · TypeScript · MongoDB |
-| **[Tattletale](https://www.aayushman.dev/tattletale)** | SIH '24 winner. Social media parser for the National Investigation Agency. | Vite · React · Node.js · TypeScript · MongoDB · OAuth2 |
-| **[TravelSocial](https://github.com/aayushman-singh/TravelSocial)** | Mobile-first travel booking with social sharing. | Flutter · Dart · Firebase · NoSQL |
+| **[Jarvis](https://github.com/aayushman-singh/jarvis)** | Autonomous SDLC agent w/ self-healing CI. `/replay` leads with a real `runner.py` JSONL log (2-iteration self-correction badged ● REAL RUN). | Python · asyncio · Claude SDK · Ollama · NATS · Playwright |
+| **[GitLogs](https://gitlogs.aayushman.dev)** | Auto-tweets GitHub commits with a deterministic Commit Intelligence layer that decides what's worth saying; 30-commit golden eval at P/R/F1/acc = 1.00. | React · Vite · Node · Gemini · OAuth2 · SQLite |
+| **[Walt](https://walt.aayushman.dev)** | IPFS storage with client-side AES-GCM + Argon2id encryption, multi-recipient ECIES sharing, WebAuthn passkey-derived keys. Server can't read your files. | Next.js · TypeScript · IPFS · Firebase Auth · AES-GCM · WebAuthn · ECIES |
+| **[Tattletale](https://github.com/aayushman-singh/Tattletale)** | SIH '24 winner. Cross-identity correlation engine (6 signals; namesake separation; cohesion ≠ probability). Ed25519-signed custody. Fact-validated LLM intel brief. | TypeScript · Crawlee · Playwright · Python · Ed25519 · Langchain |
+| **[UFDR Analyzer](https://github.com/aayushman-singh/ufdr-analyzer)** | Forensic UFDR pipeline. NL → typed `QueryPlan` IR → SQL. RFC 3161 timestamping on the audit chain. faster-whisper voice transcription. | FastAPI · Postgres · Meilisearch · Electron · RFC 3161 · faster-whisper |
+| **[Open Canvas](https://opencanvas.aayushman.dev)** | One-Worker site builder. Self-verifying a11y remediation engine on `a fix is a proof, not a claim`. Rebrand AI agent with preview-then-accept diffs. | Cloudflare Workers · Hono · Yjs · CRDT · Neon · Drizzle · Gemini |
+| **[Neural Cloud Architect](https://github.com/aayushman-singh/neural-cloud-architect)** | TS plugin platform for codebase migration. 4 plugins through one `detect/plan/transform/verify` contract: React 16→18 · Express 4→5 · Jest→Vitest · CommonJS→ESM. | TypeScript · ts-morph · pnpm · Vitest · ESLint flat |
+| **[TravelSocial](https://github.com/aayushman-singh/TravelSocial)** | Flutter social trip-planner. Offline AI-style itinerary engine (Efraimidis-Spirakis weighted sampling). Photo→post auto-caption via EXIF + Gemini Flash. | Flutter · Dart · Firebase · Gemini Flash |
+| **[VogueVoyage](https://github.com/aayushman-singh/VogueVoyage)** | On-device YOLOv8 garment classification + typed ColorTheoryEngine. Browser Outfit Builder. RGB→Lab skin-tone classifier. Share-as-PNG card. | Flutter · TensorFlow Lite · YOLOv8 · CIE Lab · Firebase |
+| **[Karaoke Buddy](https://github.com/aayushman-singh/karaoke-buddy)** | Live pitch-shifted karaoke (preview≡export is a required CI gate). Browser web demo (AudioWorklet + LGPL SoundTouch). Mic auto-key-detect. | Python · PySide6 · python-mpv · PyInstaller · Web Audio |
 
 Full case studies on [aayushman.dev](https://aayushman.dev) — click any project, click again to launch live.
 
@@ -42,13 +45,13 @@ Full case studies on [aayushman.dev](https://aayushman.dev) — click any projec
 
 ### Stack
 
-**Currently** — Autonomous Agents · Self-healing CI · Local-first · On-device LLMs
+**Currently** — Autonomous Agents · Self-healing CI · Local-first · On-device LLMs · Client-side Crypto
 
-**Shipped at scale** — React · Next.js · Node.js · Flutter · TypeScript · Python · FastAPI
+**Shipped at scale** — React · Next.js · Node.js · Flutter · TypeScript · Python · FastAPI · Cloudflare Workers
 
-**Edges I work at** — IPFS · OSINT pipelines · Surveillance-grade parsers · Voice agents · Browser extensions
+**Edges I work at** — IPFS · OSINT pipelines · Surveillance-grade parsers · Voice agents · Codebase migration plugins · Client-side AES-GCM + ECIES + WebAuthn
 
-**Infrastructure** — AWS · GCP · Docker · Firebase · MongoDB · SQLite · Redis
+**Infrastructure** — AWS · GCP · Docker · Firebase · MongoDB · Postgres · Meilisearch · Cloudflare Workers + DOs · Neon
 
 ---
 
@@ -60,6 +63,7 @@ Essays on shipping software, autonomous agents, and the third-week problem. [→
 - Demos lie. Week three is the only honest metric.
 - Local-first is not a buzzword — it's the only honest software
 - Building software the State will trust
+- A fix is a proof, not a claim — self-verifying remediation engines
 
 ---
 
