@@ -5,7 +5,7 @@
 *engineer · researcher · builder*
 
 [aayushman.dev](https://aayushman.dev) · [@aayushman2703](https://x.com/aayushman2703) · [linkedin](https://www.linkedin.com/in/aayushman-singh-zz/) · [aayushman2702@gmail.com](mailto:aayushman2702@gmail.com)
-
+[![Aayushman Singh profile views](https://u8views.com/api/v1/github/profiles/119515031/views/day-week-month-total-count.svg)](https://u8views.com/github/aayushman-singh)
 </div>
 
 ---
